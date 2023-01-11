@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/sojimmco/public_html/shop/
+    - /bin/cp -R build/* $DEPLOYPATH
